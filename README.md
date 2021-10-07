@@ -1,27 +1,27 @@
 # A.1. Data Curation
 
 ## Goal:
-### The broad goal of this project is to get an understanding of accounting for openness and replicability when collecting, cleaning, and analyzing data so that the future audience can recreate, refine, and critique the work. This will lead to more effective and accurate data solutions and findings.
+#### The broad goal of this project is to get an understanding of accounting for openness and replicability when collecting, cleaning, and analyzing data so that the future audience can recreate, refine, and critique the work. This will lead to more effective and accurate data solutions and findings.
 ### More specifically, we will be working through the basic steps of data curation mentioned above for a dataset of monthly traffic to English Wikipedia from January 2008 to September 2021. This will involve aggregating monthly data from the Legacy Page Counts API as well as The Page Views API. We will want to look at desktop, mobile, and overall visits to English Wikipedia during this timeframe.
 
 ## Data Sources:
-### 1.	License: 
-### 2.	Terms of Use: https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions
-### 3.	Legacy Pagecount API – monthly: Legacy Documentation Link
-### 4.	Pageview API – monthly: PageView Documentation Link
+#### 1.	License: 
+#### 2.	Terms of Use: https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions
+#### 3.	Legacy Pagecount API – monthly: Legacy Documentation Link
+#### 4.	Pageview API – monthly: PageView Documentation Link
 
 ## Data Description for en-wikipedia_traffic_200712-202108.csv:
-### 1.	Year = year of data point taken from timestamp, datetime
-### 2.	Month = month of data point taken from timestamp, datetime
-### 3.	Pageview_mobile_views = Number of mobile visits, a combination of app + web, int
-### 4.	Pageview_desktop_views = Number of desktop visits, int
-### 5.	Pageview_all_views = Total number of visits, mobile + desktop, int
-### 6.	Pagecount_mobile_views = Number of mobile visits, Legacy API, int
-### 7.	Pagecount_desktop_views = Number of desktop visits, Legacy API, int
-### 8.	Pagecount_all_views = Total number of visits, Mobile + desktop, Legacy API, int
+#### 1.	Year = year of data point taken from timestamp, datetime
+#### 2.	Month = month of data point taken from timestamp, datetime
+#### 3.	Pageview_mobile_views = Number of mobile visits, a combination of app + web, int
+#### 4.	Pageview_desktop_views = Number of desktop visits, int
+#### 5.	Pageview_all_views = Total number of visits, mobile + desktop, int
+#### 6.	Pagecount_mobile_views = Number of mobile visits, Legacy API, int
+#### 7.	Pagecount_desktop_views = Number of desktop visits, Legacy API, int
+#### 8.	Pagecount_all_views = Total number of visits, Mobile + desktop, Legacy API, int
 
 ## Notes:
-### When gathering data from the Pageview API, filter agent to user so that we can work with organic traffic. We want to avoid web scrawlers and spiders because they are bots. The Legacy Pagecount API does not have this option to filter, so there will be minor differences. 
+#### When gathering data from the Pageview API, filter agent to user so that we can work with organic traffic. We want to avoid web scrawlers and spiders because they are bots. The Legacy Pagecount API does not have this option to filter, so there will be minor differences. 
 
 ## Visualization:
 ![image](https://user-images.githubusercontent.com/77369888/136437468-2d4fc1c7-39e2-435b-8a05-acc6f86543b5.png)
