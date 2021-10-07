@@ -24,4 +24,5 @@
 #### When gathering data from the Pageview API, filter agent to user so that we can work with organic traffic. We want to avoid web scrawlers and spiders because they are bots. The Legacy Pagecount API does not have this option to filter, so there will be minor differences. 
 
 ## Visualization:
-![image](https://user-images.githubusercontent.com/77369888/136437468-2d4fc1c7-39e2-435b-8a05-acc6f86543b5.png)
+![image](https://user-images.githubusercontent.com/77369888/136439491-457ed46f-d335-47e2-b96c-4c22fd80349c.png)
+
