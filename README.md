@@ -2,7 +2,7 @@
 
 ## Goal:
 #### The broad goal of this project is to get an understanding of accounting for openness and replicability when collecting, cleaning, and analyzing data so that the future audience can recreate, refine, and critique the work. This will lead to more effective and accurate data solutions and findings.
-### More specifically, we will be working through the basic steps of data curation mentioned above for a dataset of monthly traffic to English Wikipedia from January 2008 to September 2021. This will involve aggregating monthly data from the Legacy Page Counts API as well as The Page Views API. We will want to look at desktop, mobile, and overall visits to English Wikipedia during this timeframe.
+#### More specifically, we will be working through the basic steps of data curation mentioned above for a dataset of monthly traffic to English Wikipedia from January 2008 to September 2021. This will involve aggregating monthly data from the Legacy Page Counts API as well as The Page Views API. We will want to look at desktop, mobile, and overall visits to English Wikipedia during this timeframe.
 
 ## Data Sources:
 #### 1.	License: 
